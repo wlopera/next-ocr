@@ -1,36 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+APP uso de OCR con NextJS-React
 
-## Getting Started
+#### Librerías
+* npm install tesseract
 
-First, run the development server:
+## Salidas
+![image](https://github.com/wlopera/next-ocr/assets/7141537/6b00a62b-9a51-4b26-85a4-dbe69941c734)
+![image](https://github.com/wlopera/next-ocr/assets/7141537/4dde66c4-adba-437a-9a5a-8e2782c56cfa)
+![image](https://github.com/wlopera/next-ocr/assets/7141537/ef6bf646-561a-4e3f-a5f6-39a91316da68)
+![image](https://github.com/wlopera/next-ocr/assets/7141537/483468ae-162b-439a-99e2-69fd7d9973d8)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Nota: La data del OCR llega con problemas dev}bido a las imágenes y manjeo del OCR
+      -> Proceso a mejorar uso de regiones y análisis de librería
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
